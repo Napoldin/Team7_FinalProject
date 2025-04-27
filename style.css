@@ -76,14 +76,14 @@ button:hover {
 aside{
   float:right;
   border:1px solid white;
-  width:30%;
+  width:40%;
   padding:1rem;
   background-color: #242336;
   margin-top: 2rem;;
 }
 .aboutPg section{
   float:left;
-  width:65%;
+  width:55%;
   margin-top: 1rem;
 }
 .aboutPg ul{
