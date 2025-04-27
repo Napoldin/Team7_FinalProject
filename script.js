@@ -1,5 +1,5 @@
-const clientId = 'YOUR_CLIENT_ID'; // Replace this
-const redirectUri = 'http://localhost:3000/Discord_Callback.php'; // Or your hosted callback
+const clientId = ''; // Replace this
+const redirectUri = 'http://localhost/Team7_FinalProject/homepage.html'; // Or your hosted callback
 const scopes = ['identify'];
 
 const loginButton = document.getElementById('login-btn');
@@ -11,5 +11,5 @@ loginButton.addEventListener('click', () => {
     `&response_type=code` +
     `&scope=${scopes.join('%20')}`;
 
-  window.location.href = discordUrl;
+  window.location.href = discordUrl;f
 });
