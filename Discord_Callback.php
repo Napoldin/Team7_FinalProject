@@ -1,9 +1,9 @@
 <?php
 require 'db.php'; // connect to DB
 
-$client_id = 'YOUR_CLIENT_ID_HERE';
-$client_secret = 'YOUR_CLIENT_SECRET_HERE';
-$redirect_uri = 'https://yourwebsite.com/callback.php';
+$client_id = '';
+$client_secret = '';
+$redirect_uri = 'http://localhost/Team7_FinalProject/homepage.html'; //must be your localhost url atm
 
 if (!isset($_GET['code'])) {
     die('No code provided');
